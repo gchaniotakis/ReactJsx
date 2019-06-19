@@ -10,7 +10,7 @@ const App = () => {
     const style = {backgroundColor: 'blue', color:'white'};
     return( 
     <div>
-    <label className="label"for="name">Enter name:</label>
+    <label className="label" htmlFor="name">Enter name:</label>
     <input id="name" type="text"/>
     <button style={style}>{buttonText}</button>
     </div>
